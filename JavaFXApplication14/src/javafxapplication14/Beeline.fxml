@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="526.0" prefWidth="364.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication14.BeelineController">
+    <stylesheets>
+        <URL value="@ums.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="110.0" prefWidth="310.0">
+         <children>
+            <Label layoutX="56.0" layoutY="20.0" text="Beeline" textFill="#5a5454">
+               <font>
+                  <Font name="Arial Black" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button id="btn" layoutX="309.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="65.0" style="-fx-background-color: #f8cb02;" styleClass="mainFxmlClass" stylesheets="@ums.css">
+         <graphic>
+            <FontAwesomeIcon fill="#5a5454" glyphStyle="HOME" iconName="HOME" size="40" />
+         </graphic>
+      </Button>
+      <Button layoutX="309.0" layoutY="55.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="65.0" style="-fx-background-color: #f8cb02;">
+         <graphic>
+            <FontAwesomeIcon fill="#5a5454" glyphStyle="HOME" iconName="GEAR" size="40" styleClass="mainFxmlClass" />
+         </graphic>
+      </Button>
+      <Pane layoutY="110.0" prefHeight="416.0" prefWidth="310.0" style="-fx-background-color: #000000;">
+         <children>
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• USSD KODLAR" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutY="37.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• INTERNET" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutY="74.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• TARIF REJALAR" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutY="111.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• YANGILIKLAR" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutY="148.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• XIZMATLAR" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutY="185.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• AKSIYA VA CHEGIRMALAR" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="-1.0" layoutY="222.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• DAQIQA VA SMS" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutY="259.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="310.0" style="-fx-background-color: #6f6363;" text="• KONTENT XIZMATLAR" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="-1.0" layoutY="296.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="311.0" style="-fx-background-color: #6f6363;" text="• OPERATOR BILAN ALOQA" textFill="#e1dddd">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Pane layoutY="333.0" prefHeight="84.0" prefWidth="310.0" style="-fx-background-color: #6F6363;" />
+         </children>
+      </Pane>
+      <FontAwesomeIcon fill="#5a5454" iconName="GIFT" layoutX="332.0" layoutY="249.0" size="30" wrappingWidth="17.14285659790039" />
+      <FontAwesomeIcon fill="#5a5454" iconName="GLOBE" layoutX="329.0" layoutY="152.0" size="30" />
+      <FontAwesomeIcon fill="#5a5454" iconName="ENVELOPE" layoutX="326.0" layoutY="356.0" size="30" text="" />
+      <FontAwesomeIcon fill="#5a5454" iconName="MOBILE" layoutX="336.0" layoutY="200.0" size="30" />
+      <FontAwesomeIcon fill="#5a5454" iconName="USER" layoutX="335.0" layoutY="411.0" size="30" />
+      <FontAwesomeIcon fill="#5a5454" iconName="MUSIC" layoutX="323.0" layoutY="303.0" size="30" text="" />
+   </children>
+</AnchorPane>
